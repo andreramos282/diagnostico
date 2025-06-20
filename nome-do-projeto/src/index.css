@@ -1,0 +1,34 @@
+body,
+body.light-theme {
+  background: #f7f8fa;
+  color: #1f2228;
+  transition: background 0.2s, color 0.2s;
+}
+body.dark-theme {
+  background: #16171e;
+  color: #e2e6f2;
+}
+.dark-theme .container {
+  background: #222333;
+  color: #e2e6f2;
+}
+.dark-theme input,
+.dark-theme select,
+.dark-theme textarea {
+  background: #28293a;
+  color: #e2e6f2;
+  border-color: #3a3b4d;
+}
+.dark-theme .result-list,
+.dark-theme .result {
+  background: #23243a;
+  color: #e2e6f2;
+}
+.dark-theme button {
+  background: #353759;
+  color: #fff;
+  border-color: #353759;
+}
+.dark-theme .disabled {
+  opacity: 0.7 !important;
+}
